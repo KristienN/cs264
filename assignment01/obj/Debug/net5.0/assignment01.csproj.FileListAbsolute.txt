@@ -1,0 +1,16 @@
+C:\Users\knyam\Desktop\school-work\CS264\assignment01\obj\Debug\net5.0\assignment01.csproj.AssemblyReference.cache
+C:\Users\knyam\Desktop\school-work\CS264\assignment01\obj\Debug\net5.0\assignment01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\knyam\Desktop\school-work\CS264\assignment01\obj\Debug\net5.0\assignment01.AssemblyInfoInputs.cache
+C:\Users\knyam\Desktop\school-work\CS264\assignment01\obj\Debug\net5.0\assignment01.AssemblyInfo.cs
+C:\Users\knyam\Desktop\school-work\CS264\assignment01\obj\Debug\net5.0\assignment01.csproj.CoreCompileInputs.cache
+C:\Users\knyam\Desktop\school-work\CS264\assignment01\bin\Debug\net5.0\assignment01.exe
+C:\Users\knyam\Desktop\school-work\CS264\assignment01\bin\Debug\net5.0\assignment01.deps.json
+C:\Users\knyam\Desktop\school-work\CS264\assignment01\bin\Debug\net5.0\assignment01.runtimeconfig.json
+C:\Users\knyam\Desktop\school-work\CS264\assignment01\bin\Debug\net5.0\assignment01.runtimeconfig.dev.json
+C:\Users\knyam\Desktop\school-work\CS264\assignment01\bin\Debug\net5.0\assignment01.dll
+C:\Users\knyam\Desktop\school-work\CS264\assignment01\bin\Debug\net5.0\ref\assignment01.dll
+C:\Users\knyam\Desktop\school-work\CS264\assignment01\bin\Debug\net5.0\assignment01.pdb
+C:\Users\knyam\Desktop\school-work\CS264\assignment01\obj\Debug\net5.0\assignment01.dll
+C:\Users\knyam\Desktop\school-work\CS264\assignment01\obj\Debug\net5.0\ref\assignment01.dll
+C:\Users\knyam\Desktop\school-work\CS264\assignment01\obj\Debug\net5.0\assignment01.pdb
+C:\Users\knyam\Desktop\school-work\CS264\assignment01\obj\Debug\net5.0\assignment01.genruntimeconfig.cache

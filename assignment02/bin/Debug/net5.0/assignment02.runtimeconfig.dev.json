@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\knyam\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\knyam\\.nuget\\packages"
+    ]
+  }
+}
