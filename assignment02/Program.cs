@@ -146,6 +146,10 @@ namespace assignment02
                 Console.WriteLine("for ellipse - cx cy rx ry");
                 Console.WriteLine("for line - x1 y1 x2 y2");
                 Console.WriteLine();
+                Console.WriteLine("Edit functions:");
+                Console.WriteLine("d - delete");
+                Console.WriteLine("u - update");
+                Console.WriteLine();
             }
             else
             {

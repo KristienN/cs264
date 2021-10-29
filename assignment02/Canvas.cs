@@ -27,9 +27,18 @@ namespace assignment02
             model.RemoveAt(index);
         }
 
+        public void updateShape(int index, Shape s)
+        {
+            model[index] = s;
+        }
+
         public void printCanvas()
         {
-            Console.WriteLine("Canvas so far");
+            foreach (Shape m in model)
+            {
+                Console.WriteLine(m.svg);
+                Console.WriteLine();
+            }
         }
 
         public void drawSVG()
@@ -42,7 +51,7 @@ namespace assignment02
 
                     foreach (Shape m in model)
                     {
-                        Console.WriteLine(m.svg);
+                        // Console.WriteLine(m.svg);
                         sw.WriteLine(m.svg);
                     }
 

@@ -17,7 +17,7 @@ namespace assignment02
         public string toSVGString()
         {
             string svg = @"<svg height='100' width='100'>";
-            svg += @"<circle cx ='" + x + "' cy ='" + y + "' stroke ='black' stroke - width ='3' fill ='red'/>";
+            svg += @"<rect cx ='" + x + "' cy ='" + y + "' stroke ='black' stroke - width ='3' fill ='red'/>";
             svg += @"</svg>";
 
             return svg;
