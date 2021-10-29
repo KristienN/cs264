@@ -42,6 +42,7 @@ namespace assignment02
 
                     foreach (Shape m in model)
                     {
+                        Console.WriteLine(m.svg);
                         sw.WriteLine(m.svg);
                     }
 

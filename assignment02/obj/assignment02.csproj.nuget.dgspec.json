@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\knyam\\Desktop\\school-work\\CS264\\assignment02\\assignment02.csproj": {}
+    "C:\\Users\\knyam\\Desktop\\school-work\\cs264\\assignment02\\assignment02.csproj": {}
   },
   "projects": {
-    "C:\\Users\\knyam\\Desktop\\school-work\\CS264\\assignment02\\assignment02.csproj": {
+    "C:\\Users\\knyam\\Desktop\\school-work\\cs264\\assignment02\\assignment02.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\knyam\\Desktop\\school-work\\CS264\\assignment02\\assignment02.csproj",
+        "projectUniqueName": "C:\\Users\\knyam\\Desktop\\school-work\\cs264\\assignment02\\assignment02.csproj",
         "projectName": "assignment02",
-        "projectPath": "C:\\Users\\knyam\\Desktop\\school-work\\CS264\\assignment02\\assignment02.csproj",
+        "projectPath": "C:\\Users\\knyam\\Desktop\\school-work\\cs264\\assignment02\\assignment02.csproj",
         "packagesPath": "C:\\Users\\knyam\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\knyam\\Desktop\\school-work\\CS264\\assignment02\\obj\\",
+        "outputPath": "C:\\Users\\knyam\\Desktop\\school-work\\cs264\\assignment02\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\knyam\\AppData\\Roaming\\NuGet\\NuGet.Config"

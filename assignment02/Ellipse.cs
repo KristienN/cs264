@@ -11,6 +11,9 @@ namespace assignment02
             this.ry = ry;
             x = cx;
             y = cy;
+
+            svg = toSVGString();
+            System.Console.WriteLine(svg);
         }
         public string toSVGString()
         {

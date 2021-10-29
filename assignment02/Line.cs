@@ -10,12 +10,13 @@ namespace assignment02
             this.y = y;
             this.width = x2;
             this.height = y2;
-        }
 
+            svg = toSVGString();
+        }
         public string toSVGString()
         {
             string svg = @"<svg height='100' width='100'>";
-            svg += @"<circle cx ='" + x + "' cy ='" + y + "' r ='" + width + "' stroke ='black' stroke - width ='3' fill ='red'/>";
+            svg += @"<line x1='" + x + "' y1='" + y + "' x2='" + width + "' y2='" + height + "' style='stroke: red; stroke - width:2' />";
             svg += @"</svg>";
 
             return svg;

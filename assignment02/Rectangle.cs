@@ -10,6 +10,8 @@ namespace assignment02
             this.y = y;
             this.width = width;
             this.height = height;
+
+            svg = toSVGString();
         }
 
         public string toSVGString()
