@@ -114,6 +114,55 @@ namespace assignment02
                     {
                         string[] options = eArr[1].Split(":");
                         // edits to be implemented
+
+                        switch (options[0])
+                        {
+                            case "c":
+                                int x = int.Parse(options[1]);
+                                int y = int.Parse(options[2]);
+                                int r = int.Parse(options[3]);
+                                canvas.updateShape(int.Parse(eArr[1]), new Circle(x, y, r));
+                                break;
+
+                            case "r":
+                                x = int.Parse(options[1]);
+                                y = int.Parse(options[2]);
+                                int w = int.Parse(options[3]);
+                                int h = int.Parse(options[4]);
+                                var rect = new Rectangle(x, y, w, h);
+                                canvas.updateShape(int.Parse(eArr[1]), rect);
+                                break;
+
+                            case "e":
+                                x = int.Parse(options[1]);
+                                y = int.Parse(options[2]);
+                                int rx = int.Parse(options[3]);
+                                int ry = int.Parse(options[4]);
+                                var ellipse = new Ellipse(x, y, rx, ry);
+                                canvas.updateShape(int.Parse(eArr[1]), ellipse);
+                                break;
+
+
+
+                            case "l":
+                                x = int.Parse(options[1]);
+                                y = int.Parse(options[2]);
+                                rx = int.Parse(options[3]);
+                                ry = int.Parse(options[4]);
+                                var line = new Line(x, y, rx, ry);
+                                canvas.updateShape(int.Parse(eArr[1]), line);
+                                break;
+                            case "0":
+                                step = false;
+                                break;
+                            default:
+                                Console.WriteLine("Invalid syntax, try again");
+                                break;
+
+
+                        }
+
+
                     }
 
                 }

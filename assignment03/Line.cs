@@ -1,4 +1,4 @@
-namespace assignment02
+namespace assignment03
 {
     public class Line : Shape
 
@@ -13,7 +13,7 @@ namespace assignment02
 
             svg = toSVGString();
         }
-        public string toSVGString()
+        public override string toSVGString()
         {
             string svg = @"<svg>";
             svg += @"<line x1='" + x + "' y1='" + y + "' x2='" + width + "' y2='" + height + "' style='stroke: red; stroke - width:2' />";

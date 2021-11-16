@@ -1,4 +1,4 @@
-namespace assignment02
+namespace assignment03
 {
     public class Ellipse : Shape
     {
@@ -14,7 +14,7 @@ namespace assignment02
 
             svg = toSVGString();
         }
-        public string toSVGString()
+        public override string toSVGString()
         {
             string svg = @"<svg>";
             svg += @"<ellipse cx ='" + x + "' cy ='" + y + "' rx ='" + rx + "' ry = '" + ry + "' stroke ='black' stroke - width ='3' fill ='red'/>";

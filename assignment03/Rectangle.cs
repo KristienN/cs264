@@ -1,4 +1,4 @@
-namespace assignment02
+namespace assignment03
 {
     public class Rectangle : Shape
     {
@@ -14,7 +14,7 @@ namespace assignment02
             svg = toSVGString();
         }
 
-        public string toSVGString()
+        public override string toSVGString()
         {
             string svg = @"<svg height='" + height + "' width='" + width + "'>";
             svg += @"<rect cx ='" + x + "' cy ='" + y + "' stroke ='black' stroke - width ='3' fill ='red'/>";
