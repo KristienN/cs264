@@ -1,0 +1,8 @@
+@startuml
+class Line {
+    + Line()
+    + Line(x:int, y:int, x2:int, y2:int)
+    + <<override>> toSVGString() : string
+}
+Shape <|-- Line
+@enduml

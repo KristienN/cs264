@@ -10,17 +10,25 @@ namespace assignment03
             this.y = y;
             this.width = width;
             this.height = height;
+            styles = new string[] { " black", "red", "" };
+            svg = toSVGString();
+        }
+
+        public Rectangle(int x, int y, int width, int height, string[] styles)
+        {
+            this.x = x;
+            this.y = y;
+            this.width = width;
+            this.height = height;
+            this.styles = styles;
 
             svg = toSVGString();
         }
 
         public override string toSVGString()
         {
-            string svg = @"<svg height='" + height + "' width='" + width + "'>";
-            svg += @"<rect cx ='" + x + "' cy ='" + y + "' stroke ='black' stroke - width ='3' fill ='red'/>";
-            svg += @"</svg>";
+            return @"<rect x='" + x + "' y='" + y + "' width='" + width + "' height='" + height + "' stroke='" + styles[0] + "' stroke-width='" + styles[2] + "' fill='" + styles[1] + "'/>";
 
-            return svg;
 
         }
     }

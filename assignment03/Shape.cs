@@ -9,7 +9,7 @@ namespace assignment03
         public int width { get; set; }
         public int height { get; set; }
         public string svg { get; set; }
-        public string line_col, fill_col, thickness, style;
+        public string[] styles { get; set; }
         public Shape() : this(100, 100, 100, 100) { }
         public Shape(int x, int y, int width, int height)
         {
@@ -18,6 +18,16 @@ namespace assignment03
             this.width = width;
             this.height = height;
             this.z = 0;
+        }
+
+        public Shape(int x, int y, int width, int height, string[] styles)
+        {
+            this.x = x;
+            this.y = y;
+            this.width = width;
+            this.height = height;
+            this.z = 0;
+            this.styles = styles;
         }
 
         public abstract string toSVGString();

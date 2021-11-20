@@ -6,20 +6,23 @@ namespace assignment03
 {
     public class SVGFileCreator
     {
-        public void createFile(Stack<Shape> model)
+        public void createFile(Canvas canvas)
+
+
+
         {
             try
             {
                 using (StreamWriter sw = File.CreateText(@"svg/output.svg"))
                 {
-                    sw.WriteLine(@"<svg>");
+                    sw.WriteLine(@"<svg width='" + canvas.width + "'  height='" + canvas.height + "' >");
 
-                    Shape[] modelArray = model.ToArray();
+                    Shape[] modelArray = canvas.model.ToArray();
 
                     foreach (Shape m in modelArray)
                     {
                         // Console.WriteLine(m.svg);
-                        sw.WriteLine(m.svg);
+                        sw.WriteLine("" + m.svg);
                     }
 
                     sw.WriteLine(@"</svg>");

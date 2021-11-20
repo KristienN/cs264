@@ -11,15 +11,24 @@ namespace assignment03
             this.ry = ry;
             x = cx;
             y = cy;
+            styles = new string[] { " black", "red", "5px" };
+            svg = toSVGString();
+        }
+
+        public Ellipse(int cx, int cy, int rx, int ry, string[] styles)
+        {
+            this.rx = rx;
+            this.ry = ry;
+            x = cx;
+            y = cy;
+            this.styles = styles;
 
             svg = toSVGString();
         }
         public override string toSVGString()
         {
-            string svg = @"<svg>";
-            svg += @"<ellipse cx ='" + x + "' cy ='" + y + "' rx ='" + rx + "' ry = '" + ry + "' stroke ='black' stroke - width ='3' fill ='red'/>";
-            svg += @"</svg>";
-            return svg;
+            return @"<ellipse cx='" + x + "' cy='" + y + "' rx='" + rx + "' ry= '" + ry + "' stroke='" + styles[0] + "' stroke-width='" + styles[2] + "' fill='" + styles[1] + "'/>";
+
         }
     }
 }

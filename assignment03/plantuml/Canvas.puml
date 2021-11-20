@@ -1,0 +1,17 @@
+@startuml
+class Canvas {
+    + height : int <<get>> <<set>>
+    + width : int <<get>> <<set>>
+    + Canvas(height:int, width:int)
+    + Canvas()
+    + addShape(s:String) : void
+    + clear() : void
+    + undo() : void
+    + redo() : void
+    + show() : void
+}
+class "Stack`1"<T> {
+}
+Canvas --> "model<Shape>" "Stack`1"
+Canvas --> "lastShapes<Shape>" "Stack`1"
+@enduml

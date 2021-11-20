@@ -12,18 +12,23 @@ namespace assignment03
             x = cx;
             y = cy;
             this.r = r;
+            styles = new string[] { " black", "red", "5px" };
+            svg = toSVGString();
+        }
 
+        public Circle(int cx, int cy, int r, string[] styles)
+        {
+            x = cx;
+            y = cy;
+            this.r = r;
+            this.styles = styles;
             svg = toSVGString();
 
         }
 
         public override string toSVGString()
         {
-            string svg = @"<svg>";
-            svg += @"<circle cx ='" + x + "' cy ='" + y + "' r ='" + r + "' stroke ='black' stroke - width ='3' fill ='red'/>";
-            svg += @"</svg>";
-
-            return svg;
+            return @"<circle x='" + x + "' y='" + y + "' r='" + r + "' stroke='" + styles[0] + "' stroke-width='" + styles[2] + "' fill='" + styles[1] + "'/>";
         }
     }
 }

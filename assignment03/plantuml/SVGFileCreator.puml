@@ -1,0 +1,5 @@
+@startuml
+class SVGFileCreator {
+    + createFile(model:Stack<Shape>) : void
+}
+@enduml

@@ -1,0 +1,8 @@
+@startuml
+class Rectangle {
+    + Rectangle()
+    + Rectangle(x:int, y:int, width:int, height:int)
+    + <<override>> toSVGString() : string
+}
+Shape <|-- Rectangle
+@enduml

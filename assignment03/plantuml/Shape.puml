@@ -1,0 +1,17 @@
+@startuml
+abstract class Shape {
+    + x : int <<get>> <<set>>
+    + y : int <<get>> <<set>>
+    + z : int <<get>> <<set>>
+    + width : int <<get>> <<set>>
+    + height : int <<get>> <<set>>
+    + svg : string <<get>> <<set>>
+    + line_col : string
+    + fill_col : string
+    + thickness : string
+    + style : string
+    + Shape()
+    + Shape(x:int, y:int, width:int, height:int)
+    + {abstract} toSVGString() : string
+}
+@enduml

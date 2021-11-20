@@ -1,9 +1,11 @@
 # CS264 Assignment 02
 
 ## Task 
-You	 are	 required	 to	 design	 and	 develop	 an	 object	 oriented	 soluCon	 in	 C#	 for	 maintaining	 a	 data	
-model	for	a	basic	vector	graphics	application.	The	model	should	include	a	means	to	represent	a	single	two-dimensional	(2D)	canvas	that	maintains	a	list	basic	2D	shapes,	e.g.	rectangles,	circles,	etc.	on	
-a	drawing	canvas.	
+You	are	required	to	design	and	develop	an	interactive	(command	line)	user	interface	for	the	console	
+application	that	you	developed	in	Assignment	02.	The	user	interface	should	provide	simple	keyboard	
+funcConality	 to	 (i)	 generate	 different	 random	 shapes	 that	are	added	 to	 the	 canvas,	 (ii)	 display	 the	
+current	canvas	to	the	console,	(iii)	save	the	canvas	to	a	file,	(iv)	implement	Undo-Redo	funcConality	
+in	your	interactive	session.	
 
 ## For Testing
 
@@ -18,25 +20,16 @@ Run command:
 ```dotnet run```
 
 #### After Running the program, various commands to be used at various steps:
+```
+A <shape>:<s>  Add Shape
+C            Clear canvas
+D            Display canvas
+H            Help
+Q            Quit Program
+R            Redo
+U            Undo
+```
 
-To add a shape to the canvas:
-```[shape letter] [x] [y] [width / x2] [height/ y2]```
-
-where:
-
-* c - cricle
-* r - rectangle
-* l - line
-* e - ellipse
-
-**Please note that for circle, it should be in the format [shape letter] [x] [y] [radius]**
-
-To edit the canvas: 
-```[edit function] [z-index]:[shape create command]```
-
-where :
-* d - delete (no need for shapoe create command)
-* u - update
 
 ## Author
 **Kristien Nyamutsaka**

@@ -1,0 +1,13 @@
+@startuml
+!include .\\Canvas.puml
+!include .\\Circle.puml
+!include .\\Ellipse.puml
+!include .\\Line.puml
+!include .\\Program.puml
+!include .\\Rectangle.puml
+!include .\\Shape.puml
+!include .\\SVGFileCreator.puml
+!include .\\obj\Debug\net5.0\.NETCoreApp,Version=v5.0.AssemblyAttributes.puml
+!include .\\obj\Debug\net5.0\assignment02.AssemblyInfo.puml
+!include .\\obj\Debug\net5.0\assignment03.AssemblyInfo.puml
+@enduml
